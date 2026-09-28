@@ -98,10 +98,9 @@ h3 {
 .expense-list li {
   list-style: none;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 .expense-list li span{
   margin-right: 10px;
