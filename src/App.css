@@ -1,0 +1,97 @@
+main {
+  padding: 40px;
+  background-color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+h2 {
+  margin-bottom: 0;
+  color: #000;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.sub-title {
+  font-size: 15px;
+}
+
+.category ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 0;
+}
+.category ul li {
+  width: 25%;
+}
+.category ul li span {
+  display: block;
+  width: 100%;
+}
+.form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: burlywood;
+  box-sizing: border-box;
+}
+.add-btn {
+  padding: 20px;
+}
+.add-btn span {
+  margin-left: 10px;
+}
+.form form{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.detail-contents, .detail-category, .detail-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.detail-contents {
+  width: 40%;
+}
+.detail-category {
+  width: 20%;
+}
+.detail-date {
+  width: 30%;
+}
+.detail-contents input {
+  width: calc(50% - 20px);
+  height: 25px;
+  box-sizing: border-box;
+}
+.contents-title, .category-title {
+  width: 100%;
+}
+.detail-category select {
+  width: calc(100% - 20px);
+  height: 25px;
+  box-sizing: border-box;
+}
+.detail-date input {
+  height: 25px;
+  box-sizing: border-box;
+}
+.add {
+  width: 10%;
+}
+
+.delete-btn {
+  margin-left: 20px;
+}
+.expense-list li span{
+  margin-left: 10px;
+}
