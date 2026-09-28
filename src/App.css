@@ -73,7 +73,7 @@ h3 {
   height: 25px;
   box-sizing: border-box;
 }
-.contents-title, .category-title {
+.contents-title, .category-title, .date-title {
   width: 100%;
 }
 .detail-category select {

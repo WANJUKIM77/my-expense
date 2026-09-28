@@ -98,7 +98,7 @@ const onClickAddBtn = () => {
             </select>
         </div>
     <div className='detail-date'>
-        <label htmlFor="expense-date">
+        <label htmlFor="expense-date" className='date-title'>
             날짜
         </label>
 
