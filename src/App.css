@@ -95,9 +95,44 @@ h3 {
 .expense-list {
   padding-left: 0;
 }
+.expense-list li {
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+}
 .expense-list li span{
   margin-right: 10px;
 }
-.expense-list li {
-  list-style: none;
+
+@media (max-width: 1023px) {
+  .expense-list li {
+    width: 100%;
+  }
+  .form form{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .contents-title, .category-title, .date-title {
+    margin-top: 10px;
+  }
+  .detail-contents, .detail-category, .detail-date {
+    width: 100%;
+  }
+  .detail-date input {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .add {
+    width: 100%;
+    margin:40px 10px 0;
+    height: 40px;
+  }
 }
