@@ -92,8 +92,11 @@ h3 {
 .delete-btn {
   margin-left: 20px;
 }
+.expense-list {
+  padding-left: 0;
+}
 .expense-list li span{
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .expense-list li {
   list-style: none;
