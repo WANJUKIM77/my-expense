@@ -95,3 +95,6 @@ h3 {
 .expense-list li span{
   margin-left: 10px;
 }
+.expense-list li {
+  list-style: none;
+}
